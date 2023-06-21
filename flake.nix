@@ -40,7 +40,7 @@
           extraCommands = ''
           mkdir -p app
           '';
-          config.Cmd = [ "${default}/bin/drg-dd-tracker" ];
+          config.Cmd = [ "${default}/bin/deep-dive-tracker" ];
           config.WorkingDir = "/app";
         };
       };

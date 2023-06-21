@@ -14,7 +14,7 @@ schedule = "1.2.0"
 toml = "^0.10.2"
 
 [tool.poetry.scripts]
-drg-dd-tracker = 'deep_dive_tracker:main'
+deep-dive-tracker = 'deep_dive_tracker:main'
 
 
 [tool.poetry.group.dev.dependencies]
